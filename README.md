@@ -1,1 +1,0 @@
-# simultech_readme
