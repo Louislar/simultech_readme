@@ -49,6 +49,7 @@
 
 ## 5個task function的目標
 5個task個別會給予n天的數據當作訓練資料，接著利用深度學習預測出各種數值
+
 |task名稱|預測目標|
 |:------------:|:----------------:|
 |<span class="text-nowrap"> **prediction problem**</span>|<span class="text-nowrap"> **預測ptrans是多少(csv中的第一個欄位)**</span>|
