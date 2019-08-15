@@ -39,7 +39,7 @@
     
     ![image](https://raw.githubusercontent.com/Louislar/simultech_readme/master/simultech_save_multiModel.png "save multimodel")
     
-    + 任何一個task執行完後都會在cmd上印出預測後的結果，以及使用測試資料預測的正確性，如下圖(以p~trans~ prediction problem(n=49)為例)
+    + 任何一個task執行完後都會在cmd上印出預測後的結果，即為使用測試資料預測的正確性，如下圖(以p~trans~ prediction problem(n=49)為例)
     
     ![image](https://raw.githubusercontent.com/Louislar/simultech_readme/master/simultech_predict_result.png "predict result")
     
@@ -105,10 +105,10 @@
 ## 5個task function對訓練資料的取樣方法
 |task名稱|訓練資料取樣方式|
 |:------------:|:----------------:|
-|<span class="text-nowrap"> **The p~trans~ prediction problem**</span>|<span class="text-nowrap"> **前n天**</span>|
-|<span class="text-nowrap"> **The peak date problem**</span>|<span class="text-nowrap"> **前n天**</span>|
-|<span class="text-nowrap"> **The peak value problem**</span>|<span class="text-nowrap"> **前n天**</span>|
-|<span class="text-nowrap"> **next day problem**</span>|<span class="text-nowrap"> **前n天**</span>|
+|<span class="text-nowrap"> **The p~trans~ prediction problem**</span>|<span class="text-nowrap"> **前n天的每一天感染人數**</span>|
+|<span class="text-nowrap"> **The peak date problem**</span>|<span class="text-nowrap"> **前n天的每一天感染人數**</span>|
+|<span class="text-nowrap"> **The peak value problem**</span>|<span class="text-nowrap"> **前n天的每一天感染人數**</span>|
+|<span class="text-nowrap"> **next day problem**</span>|<span class="text-nowrap"> **前n天的每兩天感染人數的增加量**</span>|
 |<span class="text-nowrap"> **The index date prediction problem**</span>|<span class="text-nowrap"> **隨機的連續n天**</span>|
 
 * n可以透過command line的第二個參數做調整
